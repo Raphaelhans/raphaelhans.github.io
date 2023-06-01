@@ -1,6 +1,27 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.nav-link{
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+.nav-link::before{
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+.nav-link:hover::before{
+    transform: scaleY(1);
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -14,6 +35,7 @@ html{
     font-size: 22px;
     color: aqua;
 }
+
 /* .carousel-caption {
     left: 0;
     right: auto;
@@ -91,7 +113,7 @@ th,td {
     padding: 8px;
   }  
 tr:hover{
-    background-color: gray;
+    background-color: gray
 }
 .back{
     position: fixed;
