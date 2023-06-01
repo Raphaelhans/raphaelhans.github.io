@@ -1,0 +1,117 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#isikomenuser{
+    background-color: black;
+    color: white;
+    padding: 1vw;
+    border-radius: 20px;
+}
+#isikomenuser ok{
+    font-size: 22px;
+    color: aqua;
+}
+/* .carousel-caption {
+    left: 0;
+    right: auto;
+    text-align: left;
+    padding-right: 100px;
+  }
+  
+.carousel-inner .item img {
+float: right;
+width: 50%;
+} */
+/* .container .navbar .container-fluid .navbar-brand:hover{
+    color: palegreen;
+} */
+.carousel-img-opacity {
+    opacity: 0.9;
+}
+.quizcar{
+    background-image: url(R.jpeg);
+    background-size: contain;
+    background-repeat: round;
+    color: white;
+}
+.carou{
+    padding-bottom: 6vw;
+}
+.votecar{
+    padding-top: 6vw;
+}
+.hov1:hover{
+    width: 40px;
+    height: 40px;
+}
+.box1{
+    padding: 15px;
+    padding-top: 35px;
+    width: 100%;
+    height: 18vw;
+    /* background-color: rgb(215, 212, 212); */
+}
+.box11{
+    padding: 15px;
+    padding-top: 15px;
+    width: 100%;
+    height: 18vw;
+    background-color: black;
+    color: white;
+}
+.box1 ad{
+    padding-left: 10px;
+}
+.isisoal{
+    background-color: black;
+    width: 500px;
+    height: 450px;
+    color: white;
+    align-items: center;
+}  
+.timer{
+    text-align: right;
+    margin-top: -3vw;
+    font-size: 30px;
+    /* margin-left: 58vw; */
+}
+.siap1{
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    
+}
+th,td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 8px;
+  }  
+tr:hover{
+    background-color: gray;
+}
+.back{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url(./lamborghini-black-wallpaper.jpg);
+  opacity: 90%;
+  background-size: cover;
+  z-index: -1;
+  background-color: black;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
+#fotohov{
+    transition: transform 0.2s ease-out;
+}
+#fotohov:hover{
+   transform: translateY(-1vw);
+}
