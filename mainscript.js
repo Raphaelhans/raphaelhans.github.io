@@ -10,7 +10,9 @@ $(document).ready(function() {
     let userna= $("#user").val()
     let isikomeng =$("#komenguser").val()
     if(document.getElementById("user").checkValidity()){
-      document.getElementById("komenuser").innerHTML += "<div id='isikomenuser' class='mb-2'><ok>" +userna+"</ok><br>"+isikomeng+ "</div>";
+      y=document.getElementById("komenuser").innerHTML
+      x= "<div id='isikomenuser' class='mb-2'><ok>" +userna+"</ok><br>"+isikomeng+ "</div>";
+      document.getElementById("komenuser").innerHTML=x+y
     }
     else{
       document.getElementById("user").reportValidity()
